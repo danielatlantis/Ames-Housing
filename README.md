@@ -1,4 +1,4 @@
-# Boston-Housing
+# Boston Housing Expanded
 
 <img src="https://www.boston.gov/sites/default/files/styles/bos_text_responsive/public/img/topic/intro_images/2017/06/housing1.jpg?itok=QNKQfhke" width=100% height = 60%>
 
