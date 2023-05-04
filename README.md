@@ -52,5 +52,11 @@ These are just a few examples of some of the important variables being considere
   The residual plot for the XGB model is shown above and as you can see there is a lot less variance in the spread of the residuals than what was present in the previous two residual plots. There is however, one extremely large residual that isn't at a very high sale price, but the model extremely underestimated the sale price of the house.
   
 ## Further Analysis
+
+  The XGB model performed the best so one final prediction was done to measure the overall performance of the model on all of the data that was given. The breakdown of the predicted sale prices, the original sale prices, and the residuals is provided below:
+
+![plot8](Plots/final_breakdown.png)
+
+  The average predicted sale price was not far from the actual average sale price, same goes for the standard deviation. Looking at the residual column we can determine the mean absolute error (MAE) of the model was approximately 11,463, meaning that on average the predicted sale price was off by $11,463 in either the positive or negative direction. One cool thing to point out is that the minimum residual was only 2.14 meaning that one predicted was only $2.14 off from the actual sale price. However, one serious issue is the maximum residual value of approximately 191,663 which shows just how wrong the model can be in trying to predict the sale price of houses in the dataset. This is one aspect that I hope to imporve upon futher in the future, maybe a confounding varaible was overlooked that can help explain some of the outliers.
   
 ## Conclusion
