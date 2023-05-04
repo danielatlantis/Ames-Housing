@@ -63,4 +63,5 @@ These are just a few examples of some of the important variables being considere
 
   A final XGB model was created using the same procedures as before, however this time a few additional variables were added to help improve the errors in the predictions of houses with high sale prices. The resulting residual plot is displayed on the right next to the original XGB model residual plot located on the left:
   
-![plot8](Plots/xgb-res.png{width = 50%}) ![plot10](Plots/xgb-res2.png{width = 50%})
+  
+<img src="Plots/xgb-res.png" width=50% height=50%>
