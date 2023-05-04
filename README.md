@@ -31,4 +31,26 @@ These are just a few examples of some of the important variables being considere
 
   There is a roughly cone-shaped pattern in the residual plot for the linear model so there may be some cause for concern as homoscedasticty may be violated. However, there appears to only be a negative increase in the residuals as predicted sale price increases, indicating that the model is under-estimating the sale prices of houses with large sale prices.
 
-The next model being considered is a random forest, a tuning grid for the maximum number of features was created with values of 5, 10, 15, 20, 25. Cross-validation identified the model with a maximum of 15 parameters as the best model. Each variable is assigned an importance value based on its performance in the cross-validation, the graph below shows the importance for each variable:
+  The next model being considered is a random forest, a tuning grid for the maximum number of features was created with values of 5, 10, 15, 20, 25. Cross-validation identified the model with a maximum of 15 parameters as the best model. Each variable is assigned an importance value based on its performance in the cross-validation, the graph below shows the importance for each variable:
+  
+![plot5](Plots/rf-varimp.png)
+
+  Overall quality, first floor $ft^2$, and overall conditions were the three most important predictors identified by random forest. What's interesting is that none of the neighborhoods were identified as particularly important. Year built and ground living area were moderately important however those two variables appeared to show the clearest relationship with house sale price in the EDA.
+
+![plot6](Plots/rf-res.png)
+
+  The random forest residual plot appears to show the same problem that was observed in the linear model residual plot, with larger predicted values having increasingly negative residuals. The overall maagnitude of the residuals has decreased with the random forest model compared to the linear model but there are still a handful of observations with very large residuals.
+  
+  The next model being considered is an XG Boost Tree, and a tuning grid was created for the three parameters just like what was done for the random forest. Cros-validation identified a learning rate of 0.05, a max depth of 3, and the number of estimators as 500. A variable importance graph was created for the XGB model and shown below:
+  
+![plot7](Plots/xgb-varimp.png)
+
+  Unlike the variable importance graph produced for the random forest, multiple predictors had moderate importance with overall quality, first floor $ft^2$, and number of above ground kitchens as the most important. Noteably there is also a few neighborhood predictors that were given some importance along with a few other categorical predictors.
+  
+![plot8](Plots/xgb-res.png)
+
+  The residual plot for the XGB model is shown above and as you can see there is a lot less variance in the spread of the residuals than what was present in the previous two residual plots. There is however, one extremely large residual that isn't at a very high sale price, but the model extremely underestimated the sale price of the house.
+  
+## Further Analysis
+  
+## Conclusion
