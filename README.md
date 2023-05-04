@@ -18,3 +18,5 @@
   At first glance this image can be a little difficult to interpret given the large amount of neighborhoods present in the dataset. It is clear however that most houses within a given neighborhood tend to be built around the same time so they share some similarity in sale price. Let's take a closer look with the image below.
   
 ![plot3](Plots/housing-neighborhood2.png)
+
+As expected the groupings within most neighborhood subplots are very tightly grouped and can roughly indicate which year the houses were built and neighborhoods with more recently built houses tend to have higher sale prices. This is not always the case however like in neighborhoods like "NoRidge" and "Somerst" where the sale prices of the houses are very spread out but all of the houses were built at around the same exact time.
