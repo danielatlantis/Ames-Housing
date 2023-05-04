@@ -29,4 +29,4 @@ These are just a few examples of some of the important variables being considere
   
 ![plot4](Plots/linear-res.png)
 
-There is a roughly cone-shaped pattern in the residual plot for the linear model so there may be some cause for concern as homoscedasticty may be violated.
+There is a roughly cone-shaped pattern in the residual plot for the linear model so there may be some cause for concern as homoscedasticty may be violated. However, there appears to only be a negative increase in the residuals as predicted sale price increases, indicating that the model is under-estimating the sale prices of houses with large sale prices.
