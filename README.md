@@ -29,4 +29,6 @@ These are just a few examples of some of the important variables being considere
   
 ![plot4](Plots/linear-res.png)
 
-There is a roughly cone-shaped pattern in the residual plot for the linear model so there may be some cause for concern as homoscedasticty may be violated. However, there appears to only be a negative increase in the residuals as predicted sale price increases, indicating that the model is under-estimating the sale prices of houses with large sale prices.
+  There is a roughly cone-shaped pattern in the residual plot for the linear model so there may be some cause for concern as homoscedasticty may be violated. However, there appears to only be a negative increase in the residuals as predicted sale price increases, indicating that the model is under-estimating the sale prices of houses with large sale prices.
+
+The next model being considered is a random forest, a tuning grid for the maximum number of features was created with values of 5, 10, 15, 20, 25. Cross-validation identified the model with a maximum of 15 parameters as the best model. Each variable is assigned an importance value based on its performance in the cross-validation, the graph below shows the importance for each variable:
