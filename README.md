@@ -12,3 +12,7 @@
 ![plot1](Plots/housing-year-quality.png)
 
   This graph proved to be one of the most interesting, it shows a clear relationship with the year the house was built and its sale price. Newer built houses tend to sell more than older houses. There are a few outliers that are clearly present (houses built before 1900 selling for over $250,000) so it is insufficient to say that older houses always sell for less money than newer houses. However, once overall quality of the house is included in the graph these outliers seem to make more sense as the quality of these houses are extremely high despite their age so it would make sense that they would sell for just as much, if not more, than newer built houses of similar quality.
+
+![plot2](Plots/housing-neighborhood.png)
+  
+![plot3](Plots/housing-neighborhood2.png)
