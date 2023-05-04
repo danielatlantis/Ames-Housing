@@ -22,3 +22,11 @@
 As expected the groupings within most neighborhood subplots are very tightly grouped and can roughly indicate which year the houses were built and neighborhoods with more recently built houses tend to have higher sale prices. This is not always the case however like in neighborhoods like "NoRidge" and "Somerst" where the sale prices of the houses are very spread out but all of the houses were built at around the same exact time.
 
 These are just a few examples of some of the important variables being considered in the dataset, each predictor explains some part of the houses sale price (sort of like puzzle pieces) when we combine all of these peices into a model only then can we solve the problem (or puzzle).
+
+## Models
+
+  Dummy variables were created for the following five categorical variables as they appeared to be the most important in trying to predict house sale price: Neighborhood, Central Air, Paved Driveway, Miscelaneous Feature, Fence. A baseline linear model was constructed using the predictors that were deemed important in the EDA analysis. The residual plot for the linear model on a testing set is below:
+  
+![plot4](Plots/linear-resid.png)
+
+There is a rough pattern in the residual plot with houses with larger sale prices having large negative residuals. 
