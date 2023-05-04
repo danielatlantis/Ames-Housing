@@ -2,7 +2,7 @@
 
 ## Introduction
 
-  This dataset comes from a Kaggle competition that expands upon the famous Boston housing market dataset, which has 80 columns of predictors to analyze. I found the detail to the data very interesting and thought it could possibly make for more accurate predictions and provide good practice in dealing with data with large amounts of predictors but still perform data analysis. 
+  This dataset comes from a Kaggle competition that expands upon the famous Boston housing market dataset, which has 80 columns of predictors to analyze. I found the detail to the data very interesting and thought it could possibly make for more accurate predictions and provide good practice in dealing with data with large amounts of predictors but still perform data analysis. The goal of the assignment is to create a model that can accurately predict the sale price of houses.
 
 ## Exploratory Data Analysis (EDA)
 
@@ -20,3 +20,5 @@
 ![plot3](Plots/housing-neighborhood2.png)
 
 As expected the groupings within most neighborhood subplots are very tightly grouped and can roughly indicate which year the houses were built and neighborhoods with more recently built houses tend to have higher sale prices. This is not always the case however like in neighborhoods like "NoRidge" and "Somerst" where the sale prices of the houses are very spread out but all of the houses were built at around the same exact time.
+
+These are just a few examples of some of the important variables being considered in the dataset, each predictor explains some part of the houses sale price (sort of like puzzle pieces) when we combine all of these peices into a model only then can we solve the problem (or puzzle).
