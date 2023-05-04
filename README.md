@@ -27,6 +27,5 @@ These are just a few examples of some of the important variables being considere
 
   Dummy variables were created for the following five categorical variables as they appeared to be the most important in trying to predict house sale price: Neighborhood, Central Air, Paved Driveway, Miscelaneous Feature, Fence. A baseline linear model was constructed using the predictors that were deemed important in the EDA analysis. The residual plot for the linear model on a testing set is below:
   
-![plot4](Plots/linear-resid.png)
 
 There is a rough pattern in the residual plot with houses with larger sale prices having large negative residuals. 
