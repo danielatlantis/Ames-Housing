@@ -33,7 +33,7 @@ These are just a few examples of some of the important variables being considere
 
   The next model being considered is a random forest, a tuning grid for the maximum number of features was created with values of 5, 10, 15, 20, 25. Cross-validation identified the model with a maximum of 15 parameters as the best model. Each variable is assigned an importance value based on its performance in the cross-validation, the graph below shows the importance for each variable:
   
-![plot5](Plots/rf-varimp.png)
+
 
   Overall quality, first floor $ft^2$, and overall conditions were the three most important predictors identified by random forest. What's interesting is that none of the neighborhoods were identified as particularly important. Year built and ground living area were moderately important however those two variables appeared to show the clearest relationship with house sale price in the EDA.
 
@@ -43,7 +43,7 @@ These are just a few examples of some of the important variables being considere
   
   The next model being considered is an XG Boost Tree, and a tuning grid was created for the three parameters just like what was done for the random forest. Cros-validation identified a learning rate of 0.05, a max depth of 3, and the number of estimators as 500. A variable importance graph was created for the XGB model and shown below:
   
-![plot7](Plots/xgb-varimp.png)
+
 
   Unlike the variable importance graph produced for the random forest, multiple predictors had moderate importance with overall quality, first floor $ft^2$, and number of above ground kitchens as the most important. Noteably there is also a few neighborhood predictors that were given some importance along with a few other categorical predictors.
   
