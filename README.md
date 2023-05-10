@@ -1,6 +1,6 @@
 # Ames Housing Expanded
 
-<img src="https://static.stacker.com/s3fs-public/styles/sar_screen_maximum_large/s3/08residentialQZIC_187.jpg" width=100% height = 60%>
+<img src="https://static.stacker.com/s3fs-public/styles/sar_screen_maximum_large/s3/08residentialQZIC_187.jpg" width=100% height = 30%>
 
 ## Introduction
 
