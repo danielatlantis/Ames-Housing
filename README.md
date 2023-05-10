@@ -67,3 +67,6 @@ These are just a few examples of some of the important variables being considere
   
   
 <img src="Plots/xgb-res.png" width=50%><img src="Plots/xgb-res3.png" width=50%>
+
+## Dashboard Link
+https://public.tableau.com/app/profile/daniel.antantis/viz/Housing-Dashboard/Housing?publish=yes
